@@ -1,0 +1,197 @@
+.not-found {
+    width: 100%;
+    background-color: #E8F4FF;
+    padding: 60px 0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.not-found-container {
+    width: 90%;
+    margin: auto;
+}
+.not-found-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+}
+.not-found-hint {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 30px 0;
+}
+
+.input-info {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+}
+
+.input-info input {
+    width: 28%;
+    padding: 18px 0 18px 20px;
+    border-radius: 19px;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.upload-container p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #AEAEAE;
+    margin-top: 10px;
+}
+
+.send-request-container {
+    width: 100%;
+    /*height: 56px;*/
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5%;
+}
+.send-button{
+    padding: 15px 50px;
+    border-radius: 9px;
+    background-color: #6D2CC1;
+    color: #fff;
+    border: 1px solid #6D2CC1;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.send-request-container p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7D7D7D;
+}
+.send-request-container p a {
+    color: #7D7D7D;
+    text-decoration: none;
+    border-bottom: 1px solid #7D7D7D;
+}
+.send-request-container p a:active {
+    color: inherit;
+}
+
+/*For Basket*/
+
+.not-found-basket {
+    width: 100%;
+    background-color: inherit;
+}
+
+
+.input-info-basket {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.input-info-basket input {
+    width: 95%;
+    border-radius: 19px;
+    border: 1px solid #BABABA;
+    font-weight: 400;
+    padding: 18px 0 18px 5%;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+
+.send-request-container-basket {
+    margin-top: 30px;
+}
+.send-request-container-basket button {
+    width: 100%;
+}
+.send-request-container-basket  p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #7D7D7D;
+}
+.send-request-container-basket  p a {
+    color: #7D7D7D;
+    text-decoration: none;
+    border-bottom: 1px solid #7D7D7D;
+}
+.send-request-container-basket  p a:active {
+    color: inherit;
+}
+
+
+.successPopup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.successPopup img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.submitted-text {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .not-found {
+        padding: 15px 0;
+    }
+    .not-found-container span {
+        font-size: 24px;
+        font-weight: 600!important;
+    }
+    .not-found-container p {
+        font-size: 16px;
+    }
+    .input-info {
+        flex-direction: column;
+    }
+    .input-info input {
+        width: 95%;
+        padding: 18px 0 18px 5%;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .upload-container p {
+        font-size: 14px;
+    }
+
+    .send-request-container {
+        flex-direction: column;
+    }
+    .send-button {
+        width: 100%;
+        font-size: 16px;
+    }
+    .send-request-container p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .successPopup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .successPopup img {
+        width: 50px;
+        height: 50px;
+    }
+    .successPopup p {
+        font-size: 16px;
+    }
+}

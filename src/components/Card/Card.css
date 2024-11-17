@@ -1,0 +1,139 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 2vw;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    margin: 0 0.66% 1.32%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    /*margin: 20px 0;*/
+    margin-top: auto;
+}
+.hint {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+    margin: 1rem 0;
+}
+
+.detail {
+    width: 100%;
+    background-color: #fff;
+    color: #6D2CC1;
+    padding: 5% 0;
+    border: 1px solid #6D2CC1;
+    border-radius: 9px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (hover: hover) {
+    .detail:hover {
+        background-color: #6D2CC1;
+        color: #fff;
+    }
+}
+@media (hover: none) {
+    .detail:active {
+        background-color: #6D2CC1;
+        color: #fff;
+    }
+}
+
+.buy {
+    width: 60%;
+    background-color: #6D2CC1;
+    color: #fff;
+    padding: 5% 0;
+    border: 1px solid #6D2CC1;
+    border-radius: 9px;
+
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s ease all;
+}
+
+.buy:active {
+    background-color: #fff;
+    color: #6D2CC1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 48%;
+    }
+    .button-container {
+        flex-direction: column;
+        /*align-items: center;*/
+        margin-top: 10px;
+    }
+
+    .buy {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .detail {
+        font-size: 14px;
+    }
+    .hint {
+        font-size: 12px;
+    }
+    .description, .price {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+.successPopup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.successPopup img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.submitted-text {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}

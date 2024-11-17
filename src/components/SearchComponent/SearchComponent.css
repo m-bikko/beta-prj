@@ -1,0 +1,22 @@
+.search-comp {
+    width: 100%;
+    margin-top: 40px;
+}
+.search-card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.search-card-container>div {
+    width: 23%;
+    min-width: 151px;
+}
+.null {
+    width: 100%;
+    padding: 90px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+.card-loader {
+    width: 80%;
+}
+.card-container {
+    width: 100%;
+    height: auto;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));*/
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    /*gap: 1.5rem;*/
+}
+
+
+
+.download-button {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.download-button button {
+    background-color: #fff;
+    color: #6D2CC1;
+    border: 1px solid #6D2CC1;
+    border-radius: 9px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    /*margin-top: 1.5rem;*/
+    padding: 15px 34px;
+
+    transition: 0.3s all ease;
+}
+
+@media (hover: hover) {
+    .download-button button:hover {
+        background-color: #6D2CC1;
+        color: #fff;
+    }
+}
+@media (hover: none) {
+    .download-button button:active {
+        background-color: #6D2CC1;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-loader {
+        width: 100%;
+        /*grid-template-columns: auto;*/
+    }
+
+    .download-button button {
+        padding: 15px 5%;
+        font-size: 16px;
+    }
+}
